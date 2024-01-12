@@ -13,4 +13,4 @@ Gaussian distribution
 - Estimate mean and variance given the observed data
 - Likelihood:  $p({x_i} |  \mu, \sigma )$ where $x_{i}$ is observed data and $\mu$ and $\sigma$ are unknown parameters.
 - Objective: $\hat{\mu} , \hat{\sigma} = arg max p({x_i} |  \mu, \sigma )$
-- assuming independence of observations: $p(x_i |  \mu, \sigma ) = \prod_{i=1}^{N} p(x_i |  \mu, \sigma )$
+- assuming independence of observations: $p(x_i |  \mu, \sigma ) = \prod_{i=1}^{n}p(x_i |  \mu, \sigma )$
