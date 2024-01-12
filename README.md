@@ -12,4 +12,5 @@ Gaussian distribution
 3. Maximum likelihood estimate of gaussian model parameters
 - Estimate mean and variance given the observed data
 - Likelihood:  $p({x_{i}} |  \mu, \sigma )$ where $x_{i}$ is observed data and $\mu$ and $\sigma$ are unknown parameters.
-- Objective: $\hat{\mu} , \hat{\sigma} = arg max p({x_{i}} |  \mu, \sigma )$  
+- Objective: $\hat{\mu} , \hat{\sigma} = arg max p({x_{i}} |  \mu, \sigma )$
+- assuming independence of observations: $p({x_{i}} |  \mu, \sigma ) = \prod_{i=1}^{N}p(x_{i} |  \mu, \sigma )$
