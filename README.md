@@ -11,4 +11,4 @@ Gaussian distribution
 - These points make gaussian a suitable choice for modelling noise and uncertainity
 3. Maximum likelihood estimate of gaussian model parameters
 - Estimate mean and variance given the observed data
-- Likelihood: $p({x_{i}} | \mu, \sl)$ 
+- Likelihood:  $p({x_{i}} |  \mu, \sl )$ 
